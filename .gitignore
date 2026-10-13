@@ -1,0 +1,31 @@
+# Local dependency checkouts and build environments.
+/third_party/
+/.build-env/
+
+# Historical backups and raw device recordings stay local.
+/archive/
+/captures/
+
+# Python/MicroPython generated files.
+__pycache__/
+*.py[cod]
+*.mpy
+.pytest_cache/
+.venv/
+venv/
+
+# Local editor/agent state and credentials.
+/.codex/
+/.agents/
+/.vscode/
+/.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating-system metadata.
+.DS_Store
+Thumbs.db
+desktop.ini

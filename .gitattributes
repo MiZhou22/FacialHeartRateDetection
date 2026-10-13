@@ -1,0 +1,7 @@
+# Stable text contents across Windows and Linux checkouts.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
+.gitignore text eol=lf
+.gitattributes text eol=lf
